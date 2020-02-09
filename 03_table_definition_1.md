@@ -1,9 +1,26 @@
 # テーブル定義書1
 ## 全体
-- 指摘事項
+- 送付先住所を管理するテーブルがない。
 
-## テーブル名
-- 指摘事項
+## Songs/Labels/Artists/Genre/Cart item
+- PKがない。
+- FKに対してAUTO INCREMENTをつけている。
+
+## Admin
+- テーブル名がAdminsではなくAdminになっている。
+- PKがない。
+
+## Products
+- 親であるProductsがディスクID,ジャンルID,レーベルIDを持っている。
+
+## Buy
+- Buy detailsに対してBuyが子になってしまっている。
+
+## Discs
+- ディスクテーブルにtrack_numがあり、曲ごとにトラックNo.を管理できていない。
+
+## Cart item
+- products_idにデータ型が入力されていない。
 
 # 注意
 * マークダウン形式で記入してください。
