@@ -33,7 +33,7 @@
 
 ## Products
 - 「genre_id」,「label_id」,「artist_id」はFK
- > 「genre_id」,「label_id」,「artist_id」はFKです。
+ > 「genre_id」,「label_id」,「artist_id」はFKですか？でしたらオプションを付けましょう。
 - カラム名に「product_」という接頭辞がついているが接頭辞は必要ない
  > 接頭辞は必要ありません。
 - 「cd_image」はrefileを使うなら「cd_image_id」とする必要がある。またデータ型はstringのほうが好ましい
