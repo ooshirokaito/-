@@ -91,7 +91,7 @@
 - FKが「products_id」となっているが、「product_id」が正しい。FKに◯がない
  > FKが「products_id」となっていますが、正しくは「product_id」です。
 - [sell_details]が多で[sells]が1なので、FKとして「sell_id」が必要
- > sell_detailsが多でsellsが1なので、FKとして「sell_id」が必要です。
+ > 商品をまとめて購入したときに、購入ごとに購入詳細をまとめて表示することができません。
 - 購入時の価格の情報を保持するカラムがない
  > 購入時の価格の情報を保持するカラムがありませんが、問題ないですか？
 
